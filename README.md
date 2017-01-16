@@ -1,4 +1,4 @@
-# JiraServiceDesk_DisableWelcomeMessages
+# Jira Service Desk - Disable welcome messages
 Disable Welcome E-Mail to New Customers by creating customer before mail is processed
 
 This is a dirty port of https://github.com/lesstif/php-jira-rest-client to make a quick but working fix for https://jira.atlassian.com/browse/JSD-1708
