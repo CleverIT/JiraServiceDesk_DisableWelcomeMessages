@@ -4,7 +4,7 @@ Disable Welcome E-Mail to New Customers by creating customer before mail is proc
 This is a dirty port of https://github.com/lesstif/php-jira-rest-client to make a quick but working fix for https://jira.atlassian.com/browse/JSD-1708
 
 Requirements:
- * Webserver with PHP (I think latest 5.4 is best)
+ * Webserver with PHP (I think latest 5.6 is best)
  * Exchange mail server with a dedicated mailbox for your service desk
  * Jira Service Desk user account for API login :)
 
