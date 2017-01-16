@@ -27,7 +27,7 @@ while($true){
             echo $MailItem.From.Name 
             echo $MailItem.From.Address
             
-            $url = ("https://your-php-server/webhook/IssueTest.php?email="+$MailItem.From.Address)
+            $url = ("https://your-php-server/webhook/addCustomerWithoutWelcomMessage.php?email="+$MailItem.From.Address)
             $WebRequest = Invoke-WebRequest -Method Get -Uri $url -UseBasicParsing
             echo $WebRequest.Content
             echo "`n"
